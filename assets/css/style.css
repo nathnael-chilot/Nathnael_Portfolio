@@ -1334,6 +1334,96 @@ p {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
+/*-------------------------------------
+        7. Experience
+-------------------------------------*/
+.experience {
+  padding: 50px 0 100px;
+  border-top: 1px solid #e5ebf2;
+}
+.experience-content {
+  padding-top: 100px;
+}
+.single-timeline-box {
+  margin-bottom: 75px;
+}
+
+/*experience-time*/
+.experience-time {
+  position: relative;
+}
+.experience-time h2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.experience-time h3 {
+  font-size: 16px;
+  font-weight: 300;
+  color: #636a82;
+  margin-top: 14px;
+  text-transform: uppercase;
+}
+/*experience-time*/
+
+/*main-timeline*/
+.main-timeline {
+  position: relative;
+}
+.main-timeline:before {
+  content: "";
+  width: 2px;
+  height: 84%;
+  background: #b2c1ce;
+  position: absolute;
+  top: 1.5%;
+  left: 41%;
+  z-index: -1;
+}
+.main-timeline .timeline {
+  position: relative;
+}
+
+.timeline-content span > i,
+.experience-time span > i {
+  color: #d92cf9;
+  position: absolute;
+  font-size: 10px;
+  left: -5%;
+  z-index: 1;
+}
+.timeline-content h4.title {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.timeline-content h5 {
+  color: #636a82;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 18px 0 20px;
+}
+.main-timeline .description {
+  font-size: 14px;
+  color: #999fb3;
+}
+.main-timeline .timeline-content.right {
+  float: right;
+  text-align: left;
+}
+.timeline-single-before:before {
+  content: "";
+  top: 57px;
+  left: -3px;
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  border-left: 15px solid #fff;
+}
+
+.experience-time-responsive {
+  display: none;
+}
+
 /*===========================
       11.PORTFOLIO css 
 ===========================*/
